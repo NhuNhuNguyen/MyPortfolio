@@ -1,0 +1,83 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<main class="ontainer">
+    <section class="">
+        <div class="container-fluid px-0">
+        <div class="row g-0">
+    
+            <!-- First column -->
+            <div class="col-lg-6 vh-100">
+                <div class="row">
+                    <div class="mx-auto col-10 col-md-8 col-lg-6">
+                      <!-- Form -->
+                      <form class="form-example" action="" method="post">
+                        <h1 class="col text-center">Contact Me</h1>
+                        
+                        <!-- Input fields -->
+                        <div class="form-group">
+                          <label for="Name">Name</label>
+                          <input
+                            type="text"
+                            class="form-control username"
+                            id="name"
+                            placeholder="Name..."
+                            name="name"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="Email">Email</label>
+                          <input
+                            type="email"
+                            class="form-control email"
+                            id="email"
+                            placeholder="Email..."
+                            name="email"
+                          />
+                        </div>
+                        <div class="form-group">
+                            <label for="Message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                          </div>
+            
+                        <button type="submit" class="btn btn-primary btn-customized mt-4">
+                          Send
+                        </button>
+                      </form>
+                      <!-- Form end -->
+                    </div>
+                  </div>
+            </div>
+            <!-- First column -->
+    
+            <!-- Second column -->
+            <div class="col-lg-6 vh-100">
+                <h1>Let's talk</h1>
+                <p style="color: rgba(170, 168, 184, 0.959);">Want to hear from me sooner? Give me a call at</p>
+                <dl class="row">
+                    <dt class="col-sm-3">Phone</dt>
+                    <dd class="col-sm-9">
+                        <p>+1 (437) 460 1710</p>
+                    </dd>
+                  
+                    <dt class="col-sm-3">Email</dt>
+                    <dd class="col-sm-9">
+                      <p>nguyenngocquynhnhu1710@gmail.com</p>
+                    </dd>
+                  
+                    <dt class="col-sm-3">Location</dt>
+                    <dd class="col-sm-9">Toronto</dd>
+
+                  </dl>
+            </div>
+            <!-- Second column -->
+    
+        </div>
+        </div>
+    
+    </section>
+   
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
